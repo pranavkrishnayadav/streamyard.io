@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Yard Clone</title>
+    <style>
+        #user-video {
+            width: 80%;
+            height: auto;
+            border: 1px solid #ccc;
+            display: block;
+            margin: 20px auto;
+        }
+        #start-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stream Yard Clone</h1>
+    <video id="user-video" autoplay playsinline></video>
+    <button id="start-btn">Start</button>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
